@@ -114,36 +114,40 @@ get_header(); ?>
 					<?php get_sidebar(); ?>
 
 					<!-- Featured Posts Start -->
-					<?php
-					  $args = array(
-					        'posts_per_page' => 5,
-					        'meta_key' => 'meta-checkbox',
-					        'meta_value' => 'yes'
-					    );
-					    $featured = new WP_Query($args);
-						if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post(); ?>
 
-							<?php if (has_post_thumbnail()) : ?>
-								<aside id="secondary" class="widget-area sidebar-1-area mt-3r card">
-									<section style="padding:10px 35px;">
-										<h3 class="widget-title h3">FEATURED</h3>
-										<a class="post-img" href="<?php the_permalink(); ?>">
-											<?php the_post_thumbnail(); ?>
-										</a>
-										<div class="post-body">
-											<div class="post-meta">
-												<a class="post-category cat-3" href="category.html"><?php the_category(', '); ?></a>
-												<span class="post-date"><?php echo get_the_date('F j, Y'); ?></span>
+					<aside id="secondary" class="widget-area sidebar-1-area mt-3r card">
+						<section style="padding:10px 35px;">
+
+						<?php
+						  $args = array(
+						        'posts_per_page' => 5,
+						        'meta_key' => 'meta-checkbox',
+						        'meta_value' => 'yes'
+						    );
+						    $featured = new WP_Query($args);
+							if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post(); ?>
+
+								<?php if (has_post_thumbnail()) : ?>
+
+											<h3 class="widget-title h3">FEATURED</h3>
+											<a class="post-img" href="<?php the_permalink(); ?>">
+												<?php the_post_thumbnail(); ?>
+											</a>
+											<div class="post-body">
+												<div class="post-meta">
+													<a class="post-category cat-3" href="category.html"><?php the_category(', '); ?></a>
+													<span class="post-date"><?php echo get_the_date('F j, Y'); ?></span>
+												</div>
+												<h5 class="post-title "><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
 											</div>
-											<h5 class="post-title "><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-										</div>
-									</section>
-								</aside>
-							<?php
-						endif;
-						endwhile; else:
-						endif;
-					?>
+
+								<?php
+							endif;
+							endwhile; else:
+							endif;
+						?>
+						</section>
+					</aside>					
 					<!-- Featured Posts End -->
 										
 				</div>

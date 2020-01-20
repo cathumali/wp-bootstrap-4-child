@@ -1,5 +1,15 @@
+<?php
+/**
+* Template Name: Home - Landing Page
+*
+* @package WordPress
+* @subpackage Twenty_Fourteen
+* @since Twenty Fourteen 1.0
+*/
 
-<?php get_header(); ?>	
+ get_header(); 
+ 
+ ?>	
 
 <body <?php body_class(); ?> id="custom-home-page" >
 

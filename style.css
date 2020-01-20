@@ -2,7 +2,7 @@
     Theme Name: WP Bootstrap 4 Child
     Theme URI: https://bootstrap-wp.com
     Author URI:
-    Description:  Twenty Twenty Child Theme
+    Description:  WP Bootstrap 4 Child
     Author URI:   http://example.com
     Template:     wp-bootstrap-4
     Version:      1.0.0
@@ -11,7 +11,6 @@
 body, html {
   height: 100% !important;
   margin: 0 !important;
-  /*font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 
 #home-body{
