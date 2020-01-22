@@ -13,6 +13,10 @@ body, html {
   margin: 0 !important;
 }
 
+.hidden {
+    display: none !important;
+}
+
 #home-body{
     height: 100%; 
     width: 100%;

@@ -25,6 +25,14 @@
 			include 'css/blog-styles.css';
 		} ?>
 
+		<?php if(is_page('resume')){
+			include 'css/resume-styles.css';
+		} ?>
+
+		<?php if(is_page('photographs')){
+			include 'css/gallery-styles.css';
+		} ?>
+
 	</style>
 
 
