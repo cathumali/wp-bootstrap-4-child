@@ -44,6 +44,10 @@ a.ngg-simplelightbox {
     #esther_chen-aside {
         width: 25%;
     }
+    #content {
+        padding-top: 5.3rem !important;
+
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -56,6 +60,26 @@ a.ngg-simplelightbox {
         transform: translateX(-270px);
         padding-top: 2em;
         background: rgba(0, 0, 0, 0.04);
+    }
+
+
+    #esther_chen-aside{
+        width: 100vw;
+        margin: 0;
+        position: relative  !important;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0;   
+        padding-bottom: 20px;
+     
+    }
+    #esther_chen-aside #esther_chen-main-menu ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+    .js-esther_chen-nav-toggle {
+        display: none;
     }
 }
 

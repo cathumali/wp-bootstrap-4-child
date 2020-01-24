@@ -2,7 +2,7 @@
     Theme Name: WP Bootstrap 4 Child
     Theme URI: https://bootstrap-wp.com
     Author URI:
-    Description:  WP Bootstrap 4 Child
+    Description:  Twenty Twenty Child Theme
     Author URI:   http://example.com
     Template:     wp-bootstrap-4
     Version:      1.0.0
@@ -11,12 +11,12 @@
 body, html {
   height: 100% !important;
   margin: 0 !important;
+  /*font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 
 .hidden {
     display: none !important;
 }
-
 #home-body{
     height: 100%; 
     width: 100%;
@@ -74,6 +74,11 @@ nav .custom-menu{
     position: fixed;
     width: 100%;
 }
+#page #masthead {
+    position: fixed !important;
+    width: 100%;
+    z-index: 99;
+}
 .blog #content{
     margin-bottom: 12em;
 }
@@ -101,7 +106,14 @@ body:not(.home) .container{
     background-position: center;
     width: 100%;
     height: 200px;
+    border: 1px solid #bbbfc3;
 }
+
+
+#post-header.page-header {
+    padding-top: 10em;
+}
+
 
 
 
@@ -142,10 +154,6 @@ form textarea{
     text-transform: uppercase;
 
 }
-
-
-
-
 
 
 /*=========================================================
@@ -285,7 +293,7 @@ form textarea{
 
 
     .home #masthead{
-        position: fixed;
+        /*position: fixed;*/
         width: 100%;
         bottom: 0;
         background-color: transparent;
@@ -322,11 +330,21 @@ form textarea{
     #post-header.page-header {
         padding-top: 26em;
     }
+
+    body:not(#custom-home-page) #content {
+        padding-top: 10em;
+    }
+
+
 }
 
 
-@media only screen and (max-width: 991px) {{
+@media only screen and (max-width: 991px) {
      #post-header.page-header {
      padding-top: 10em;
     }
+    body:not(#custom-home-page) #content{
+        padding-top: 4em;
+    }
 }
+

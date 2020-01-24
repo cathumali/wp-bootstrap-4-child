@@ -21,6 +21,7 @@
 
 	<style type="text/css">
 		
+		
 		<?php if(!is_front_page()){
 			include 'css/blog-styles.css';
 		} ?>
@@ -29,10 +30,9 @@
 			include 'css/resume-styles.css';
 		} ?>
 
-		<?php if(is_page('photographs')){
+		<?php if( is_page('portfolio') || is_page('photographs') || is_page('videos') ){
 			include 'css/gallery-styles.css';
 		} ?>
-
 	</style>
 
 
