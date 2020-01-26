@@ -26,12 +26,16 @@
 			include 'css/blog-styles.css';
 		} ?>
 
-		<?php if(is_page('resume')){
+		<?php if( is_page_template('page-resume.php') ){
 			include 'css/resume-styles.css';
 		} ?>
 
-		<?php if( is_page('portfolio') || is_page('photographs') || is_page('videos') ){
+		<?php if( is_page_template('page-gallery.php') ){
 			include 'css/gallery-styles.css';
+		} ?>
+
+		<?php if( is_page_template('page-about.php') ){
+			include 'css/about-styles.css';
 		} ?>
 	</style>
 

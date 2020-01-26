@@ -115,7 +115,10 @@ body:not(.home) .container{
 }
 
 
-
+footer a.btn-floating {
+    color: #808080;
+    font-size: 1.3em;
+}
 
 
 /*Contact form 7 Start*/
@@ -147,13 +150,61 @@ form input,
 form textarea{
     border-radius: 0 !important;
 }
+
+@media only screen and (max-width: 767px) {
+    form p:nth-child(2) label,
+    form p:nth-child(3) label{
+        padding: 0;
+        width: 100%;
+    }
+}
 /*Contact form 7 End*/
 
 
-.categories {
-    text-transform: uppercase;
 
+
+
+
+/*=========================================================
+/*Blog page start*/
+.blog .categories {
+    text-transform: uppercase;
+    font-weight: 700;
 }
+.blog .widget-title{
+    padding: 1.5em 0 .5em;
+}
+
+.blog .entry-title.card-title a:hover,
+.blog .post-title a:hover {
+    color: #BD5D38 !important;
+}
+.blog .categories .cat-links a {
+    font-size: 1.2em;
+    padding: 0 1em !important;
+}
+
+.blog .categories .cat-links a:hover {
+    background: black !important;
+    color: #fff !important;
+    
+}
+
+.blog  .list-inline-item:not(:last-child) {
+    margin-right: 2rem;
+}
+
+/*Blog page end*/
+/*=========================================================
+
+
+
+
+
+
+
+
+
 
 
 /*=========================================================

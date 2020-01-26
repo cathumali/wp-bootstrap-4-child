@@ -14,12 +14,9 @@
 
 */
 
+	global $wp; 
 
-
-	get_header(); 
-
-  
-
+	get_header();  
 ?>
 
 	<div id="esther_chen-page">
@@ -34,9 +31,9 @@
 
 					<!-- <li><a href="index.html">Home</a></li> -->
 
-					<li class="esther_chen-active"><a href="<?php echo get_site_url(); ?>/portfolio">Photography</a></li>
+					<li class="<?php echo ($wp->request == 'portfolio') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/portfolio">Photography</a></li>
 					
-					<li><a href="<?php echo get_site_url(); ?>/videos">Videos</a></li>
+					<li class="<?php echo ($wp->request == 'videos') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/videos">Videos</a></li>
 				</ul>
 
 			</nav> 
@@ -114,11 +111,17 @@
 <script type="text/javascript">
 
 
-
 (function($) {
 
-	$('.ngg-gallery-thumbnail').addClass('col-md-3');
+	$('.ngg-gallery-thumbnail-box')
+		.addClass('col-12 col-sm-3 gallery-box')
+		.removeClass('ngg-gallery-thumbnail-box');
+		// .append('<div class="border__" style=" width: 90%; height: 94%; position: absolute; z-index: 1; background: #0717165c; box-sizing: border-box; border: 1px solid #fff; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>');
+
+		$('#da-thumbs').addClass('row');
+		$('#da-thumbs .TotLi').addClass('col-sm-4');
+
+
 
 	})(jQuery); 
-
 </script>

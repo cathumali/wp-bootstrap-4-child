@@ -101,6 +101,7 @@ ul.side-bar-nav {
     letter-spacing: 0.05rem;
     text-transform: uppercase;
     text-align: center;
+    padding: 0;
 }
 
 
@@ -331,20 +332,6 @@ section.resume-section{
 
   }
 
-/*  #sideNav .navbar-collapse {
-
-    display: flex;
-
-    align-items: flex-start;
-
-    flex-grow: 0;
-
-    width: 100%;
-
-    margin-bottom: auto;
-
-  }*/
-
   #sideNav .navbar-collapse .navbar-nav {
 
     flex-direction: column;
@@ -367,6 +354,9 @@ section.resume-section{
   body #content {
     padding-top: 0 !important;
 
+  }
+  section.resume-section{
+    padding-right: 4em !important; 
   }
 }
 

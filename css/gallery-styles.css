@@ -7,9 +7,19 @@
 .headshots{
   height: 30em !important;
 }
-.ngg-gallery-thumbnail.col-md-3{
+/*.ngg-gallery-thumbnail-box{
     padding: 0; 
+    width: auto;
+}*/
+.gallery-box{   
+    float: left;
+    padding: 0;
 }
+.gallery-box img{
+    margin: 0 !important;
+    width:  100%;
+}
+
 .ngg-galleryoverview  {
     margin-top: 0 !important;
 }
@@ -570,4 +580,12 @@ textarea.form-control {
 .sidelink li.active a {
     color: #000000;
     font-style: italic;
+}
+
+#da-thumbs li {
+    margin: 0 !important;
+}
+#da-thumbs li img {
+    width: 100% !important;
+    height: auto !important;
 }

@@ -15,7 +15,7 @@ $featured_query = new WP_Query( $args );
 
 <div class="col-12">
 <?php if ( $featured_query->have_posts() ) : ?>
-    <div id="wp-bp-posts-slider" class="carousel slide mt-3r rounded" data-ride="carousel">
+    <div id="wp-bp-posts-slider" class="carousel slide rounded" data-ride="carousel">
         <ol class="carousel-indicators">
             <?php $post_counter = 0; ?>
             <?php while ( $featured_query->have_posts() ) : $featured_query->the_post(); ?>
