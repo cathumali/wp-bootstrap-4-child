@@ -96,6 +96,22 @@
 
 					        	<div class="row">
 
+						        	<div class="col-sm-4 col-xs-6 mobile_view">  
+
+						        		<div class="col-12 resume_image" style="background: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>);">
+						        			
+						        		</div>      		
+
+							        	<div class="subheading mb-5">
+
+							            	<p>"Chen plays [Dr. Ginny Yang] with great skill, moving her from perhaps the least sympathetic character to the one you might most want to offer a hug."</p>
+
+							            	<p>— Alex Miller, Vail Daily</p>
+
+							            </div>
+
+						        	</div>
+
 						        	<div class="col-sm-8 col-xs-6">
 
 							            <h2 class="mb-0">Esther
@@ -116,9 +132,130 @@
 
 							            </div>
 
+						                <div class="resume-content">
+
+						                	<h5 class="mb-0">FILM / TV</h3>
+
+						                	<div class="subheading mb-3">2018 ABC Diversity Showcase</div>
+
+											<table class="table">
+
+											  <tbody>
+
+						                        <tr>
+
+						                            <td>TABLE TALK</td>
+
+						                            <td>SERIES REGULAR</td>
+
+						                            <td>Full Screen Media/New Voice Rally Winners</td>
+
+						                        </tr>
+
+						                        <tr>
+
+						                            <td>SUCCESSION</td>
+
+						                            <td>CO-STAR</td>
+
+						                            <td>HBO/Dir. Andrij Parekh</td>
+
+						                        </tr>
+
+						                        <tr>
+
+						                            <td>WU-TANG: AN AMERICAN SAGA</td>
+
+						                            <td>CO-STAR</td>
+
+						                            <td>Hulu/Dir. Tara Nicole Weyr</td>
+
+						                        </tr>
+
+						                        <tr>
+
+						                            <td>Y: THE LAST MAN</td>
+
+						                            <td>CO-STAR</td>
+
+						                            <td>FX/Dir. Metrna Matsoukas</td>
+
+						                        </tr>
+
+						                        <tr>
+
+						                            <td>THE HUNT</td>
+
+						                            <td>CO-STAR</td>
+
+						                            <td>Amazon/Dir. Wayne Yip</td>
+
+						                        </tr>
+
+						                        <tr>
+
+						                            <td>BUZZFEED</td>
+
+						                            <td>GUEST STAR</td>
+
+						                            <td>Buzzfeed/Dir. Ben Stumpf</td>
+
+						                        </tr>
+
+						                        <tr>
+
+						                            <td>MORSE CODE</td>
+
+						                            <td>LEAD</td>
+
+						                            <td>Prod. Bob Giraldi</td>
+
+						                        </tr>
+
+						                        <tr>
+
+						                            <td>GRACE</td>
+
+						                            <td>LEAD</td>
+
+						                            <td>Dir. Kevin Clark-Ryan </td>
+
+						                        </tr>
+
+						                        <tr>
+
+						                            <td>THE RESISTANCE</td>
+
+						                            <td>LEAD</td>
+
+						                            <td>Dir. Natasha Straley</td>
+
+						                        </tr>
+
+						                        <tr>
+
+						                            <td>OUROS</td>
+
+						                            <td>SUPPORTING</td>
+
+						                            <td>Jabamag Productions/Dir. T. Zhang</td>
+
+						                        </tr>
+
+
+
+											  </tbody>
+
+											</table>
+
+						                </div>
 						        	</div>
 
-						        	<div class="col-sm-4 col-xs-6">        		
+						        	<div class="col-sm-4 col-xs-6 desktop_view">  
+
+						        		<div class="col-12 resume_image" style="background: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>);">
+						        			
+						        		</div>      		
 
 							        	<div class="subheading mb-5">
 
@@ -131,130 +268,6 @@
 						        	</div>
 
 					        	</div>
-
-
-					            <div class="resume-item d-flex flex-column flex-md-row justify-content-between" id="film">
-
-					                <div class="resume-content">
-
-					                	<h5 class="mb-0">FILM / TV</h3>
-
-					                	<div class="subheading mb-3">2018 ABC Diversity Showcase</div>
-
-										<table class="table">
-
-										  <tbody>
-
-					                        <tr>
-
-					                            <td>TABLE TALK</td>
-
-					                            <td>SERIES REGULAR</td>
-
-					                            <td>Full Screen Media/New Voice Rally Winners</td>
-
-					                        </tr>
-
-					                        <tr>
-
-					                            <td>SUCCESSION</td>
-
-					                            <td>CO-STAR</td>
-
-					                            <td>HBO/Dir. Andrij Parekh</td>
-
-					                        </tr>
-
-					                        <tr>
-
-					                            <td>WU-TANG: AN AMERICAN SAGA</td>
-
-					                            <td>CO-STAR</td>
-
-					                            <td>Hulu/Dir. Tara Nicole Weyr</td>
-
-					                        </tr>
-
-					                        <tr>
-
-					                            <td>Y: THE LAST MAN</td>
-
-					                            <td>CO-STAR</td>
-
-					                            <td>FX/Dir. Metrna Matsoukas</td>
-
-					                        </tr>
-
-					                        <tr>
-
-					                            <td>THE HUNT</td>
-
-					                            <td>CO-STAR</td>
-
-					                            <td>Amazon/Dir. Wayne Yip</td>
-
-					                        </tr>
-
-					                        <tr>
-
-					                            <td>BUZZFEED</td>
-
-					                            <td>GUEST STAR</td>
-
-					                            <td>Buzzfeed/Dir. Ben Stumpf</td>
-
-					                        </tr>
-
-					                        <tr>
-
-					                            <td>MORSE CODE</td>
-
-					                            <td>LEAD</td>
-
-					                            <td>Prod. Bob Giraldi</td>
-
-					                        </tr>
-
-					                        <tr>
-
-					                            <td>GRACE</td>
-
-					                            <td>LEAD</td>
-
-					                            <td>Dir. Kevin Clark-Ryan </td>
-
-					                        </tr>
-
-					                        <tr>
-
-					                            <td>THE RESISTANCE</td>
-
-					                            <td>LEAD</td>
-
-					                            <td>Dir. Natasha Straley</td>
-
-					                        </tr>
-
-					                        <tr>
-
-					                            <td>OUROS</td>
-
-					                            <td>SUPPORTING</td>
-
-					                            <td>Jabamag Productions/Dir. T. Zhang</td>
-
-					                        </tr>
-
-
-
-										  </tbody>
-
-										</table>
-
-					                </div>
-
-					            </div>
-
 
 
 					            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="hosting">
@@ -482,6 +495,22 @@
 
 					        	<div class="row">
 
+						        	<div class="col-sm-4 col-xs-6 mobile_view">  
+
+						        		<div class="col-12 resume_image" style="background: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>);">
+						        			
+						        		</div>      		
+
+							        	<div class="subheading mb-5">
+
+							            	<p>"Chen plays [Dr. Ginny Yang] with great skill, moving her from perhaps the least sympathetic character to the one you might most want to offer a hug."</p>
+
+							            	<p>— Alex Miller, Vail Daily</p>
+
+							            </div>
+
+						        	</div>
+						        	
 						        	<div class="col-sm-8 col-xs-6">
 
 							            <h2 class="mb-0">陳詠涵
@@ -504,15 +533,17 @@
 
 						        	</div>
 
-						        	<div class="col-sm-4 col-xs-6">        		
+						        	<div class="col-sm-4 col-xs-6 desktop_view">  
+
+						        		<div class="col-12 resume_image" style="background: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>);">
+						        			
+						        		</div>      		
 
 							        	<div class="subheading mb-5">
 
 							            	<p>"Chen plays [Dr. Ginny Yang] with great skill, moving her from perhaps the least sympathetic character to the one you might most want to offer a hug."</p>
 
 							            	<p>— Alex Miller, Vail Daily</p>
-
-
 
 							            </div>
 

@@ -40,7 +40,7 @@
 
 		</aside> <!-- END esther_chen-ASIDE -->
 
-		<div id="esther_chen-main">
+		<div id="esther_chen-main" class="<?php echo ($wp->request == 'videos') ? 'videos_section': 'photos_section'; ?>" >
 
 			<section class="esther_chen-section-2">
 

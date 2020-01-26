@@ -18,11 +18,11 @@
 	height: 100%
 }
 
-.navbar.bg-dark,
+/*.navbar.bg-dark,*/
 #masthead{
     background: none !important;
-	
 }
+
 #masthead {
 	color: #fff !important;
 	font-weight: 500;

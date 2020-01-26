@@ -79,19 +79,13 @@ nav .custom-menu{
     width: 100%;
     z-index: 99;
 }
-.blog #content{
-    margin-bottom: 12em;
-}
-
 .caption a {
     color: gray !important;
 }
 .badge-pill{
     border-radius: 0;
 }
-body:not(.home) .container{
-    /*margin-top: 6em;*/
-}
+
 .card {
     border: none; /*remove border in all pages*/
 }
@@ -114,12 +108,21 @@ body:not(.home) .container{
     padding-top: 10em;
 }
 
+.btn {
+    background: #000 !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-color: #000 !important;
+    color: #fff!important;
+}
 
 footer a.btn-floating {
     color: #808080;
     font-size: 1.3em;
 }
-
+footer .footer-copyright a {
+    color: #BD5D38 !important;
+}
 
 /*Contact form 7 Start*/
 
@@ -180,7 +183,7 @@ form textarea{
     color: #BD5D38 !important;
 }
 .blog .categories .cat-links a {
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 0 1em !important;
 }
 
@@ -194,6 +197,23 @@ form textarea{
     margin-right: 2rem;
 }
 
+.blog.hfeed h2.entry-title.card-title.h3{
+    font-size: 1.2em;
+}
+
+.single-post #heading__overlay {
+    background: #0000008c;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.single-post .heading_details {
+    position: relative;    
+    z-index: 1;
+}
 /*Blog page end*/
 /*=========================================================
 
@@ -344,7 +364,6 @@ form textarea{
 
 
     .home #masthead{
-        /*position: fixed;*/
         width: 100%;
         bottom: 0;
         background-color: transparent;
@@ -355,7 +374,7 @@ form textarea{
 
 
     body:not(.home) .site-title { 
-        padding: 25px 60px;
+        padding: 25px 0 25px 60px;
     }
 
     .home .site-title {
@@ -382,11 +401,16 @@ form textarea{
         padding-top: 26em;
     }
 
-    body:not(#custom-home-page) #content {
+    body:not(#custom-home-page):not(.single-post) #content {
         padding-top: 10em;
     }
 
-
+    body.single-post #content {
+        padding-top: 5em;
+    }
+    div#primary-menu-wrap {
+        margin-right: 2em;
+    }
 }
 
 
@@ -394,8 +418,40 @@ form textarea{
      #post-header.page-header {
      padding-top: 10em;
     }
-    body:not(#custom-home-page) #content{
-        padding-top: 4em;
+    body:not(#custom-home-page):not(.single-post):not(.hfeed) #content{
+        padding-top: 5.8em;
     }
+    body.hfeed #content {
+     padding-top: 8em;
+    }
+
+    body.single-post #content {
+        padding-top: 3.8em;
+    }   
+
+    li.nav-item.menu-item {
+        margin: .2rem 0 0 .8rem;
+    }
+    a.navbar-brand.mb-0 {
+        font-size: 1.2em;
+        padding: .8rem 0 .8rem 1rem;
+    } 
+    div#primary-menu-wrap{
+        margin: 1em 0 3em 0;
+    }
+
+    .home nav#site-navigation {
+        margin-top: 1.2em;
+    }
+
 }
 
+@media only screen and (max-width: 400px) {
+    .sticky-container {
+        padding-left: 4em !important;
+    }    
+
+    a.navbar-brand.mb-0 {
+        font-size: .8em;
+    }
+}

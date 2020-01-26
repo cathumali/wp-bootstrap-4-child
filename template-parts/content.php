@@ -13,9 +13,6 @@
 <div class="col-md-6">
 	 <div class="post-entry-1 ">
 
-	  	<?php
-	  	 // wp_bootstrap_4_post_thumbnail(); 
-	  	?>
 		<div class="thumbnail" style="background-image: url(<?php echo get_the_post_thumbnail_url(null,'post-thumbnail'); ?>)"></div>
 	  	
 	  	<div class="contents" style="background: #f8f9fa">

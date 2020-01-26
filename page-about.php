@@ -26,7 +26,7 @@
 	</div>
 	<!-- Heading End -->
 
-	<div class="container">
+	<div class="container about_content">
 		<div class="row">
 
 			<div class="col-md-12 wp-bp-content-width">
@@ -65,12 +65,46 @@
 						endwhile; // End of the loop.
 					?>
 
-					</main><!-- #main -->
+					</main>
 				</div>
 			</div> 
-
 		</div>
  	</div>
  
+
+ 	<script type="">
+ 		
+ 		// Change nav style when scroll top to content div 
+ 		(function($) {
+
+	 		$('.navbar').removeClass('bg-dark');
+			var scrollEventHandler = function() {
+			 if(isScrolledIntoView(document.getElementsByClassName('about_content')[0])) {
+			  	$('.navbar').removeClass('bg-dark');
+ 			  } else {
+			  	$('.navbar').addClass('bg-dark');
+			  }  
+			}
+
+		 
+			$(window).scroll(scrollEventHandler);
+
+			function isScrolledIntoView(el) {
+			    var elemTop = el.getBoundingClientRect().top;
+			    var elemBottom = el.getBoundingClientRect().bottom;
+			 
+			    var isVisible = (elemTop >= 0) && (elemBottom >= window.innerHeight);
+			    return isVisible;
+			}
+		// ==============================
+
+		})(jQuery); 
+
+
+
+
+
+ 	</script>
+
 <?php
 get_footer();

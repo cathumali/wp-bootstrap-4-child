@@ -230,7 +230,7 @@ get_header(); ?>
 
 							<?php if (has_post_thumbnail()) : ?>
 
-								<aside id="secondary" class="widget-area sidebar-1-area mt-3r card">
+								<aside id="secondary" class="widget-area sidebar-1-area mt-3r card aside_featured">
 
 									<section style="padding:10px 35px;">
 

@@ -6,11 +6,7 @@
 }
 .headshots{
   height: 30em !important;
-}
-/*.ngg-gallery-thumbnail-box{
-    padding: 0; 
-    width: auto;
-}*/
+} 
 .gallery-box{   
     float: left;
     padding: 0;
@@ -41,7 +37,7 @@ a.ngg-simplelightbox {
     top: 0;
     left: 0;
     overflow-y: hidden;
-    z-index: 1001;
+    /*z-index: -1;*/
     background: rgba(0, 0, 0, 0.04);
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -50,6 +46,9 @@ a.ngg-simplelightbox {
     transition: all 0.5s ease;
 }
 
+div#esther_chen-main.videos_section section {
+    margin: 2em !important;
+}
 @media (min-width: 992px) {
     #esther_chen-aside {
         width: 25%;
