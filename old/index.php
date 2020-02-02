@@ -67,7 +67,7 @@ get_header(); ?>
 			<!-- Display all categories Start-->
 
 			<div class="col-md-12 categories">
-
+f
 				<ul class="list-inline" style="text-align: center;">	 							
 
 					<?php 

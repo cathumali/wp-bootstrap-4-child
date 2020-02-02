@@ -37,13 +37,6 @@
 		<?php if( is_page_template('page-about.php') ){
 			include 'css/about-styles.css';
 		} ?>
-
-		<?php if( is_page_template('page-about-2.php') ){
-			include 'css/about-2-styles.css';
-		} ?>
-
-
-
 	</style>
 
 

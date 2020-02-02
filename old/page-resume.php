@@ -110,8 +110,6 @@
 
 							            </div>
 
-							            <!-- //here -->
-
 						        	</div>
 
 						        	<div class="col-sm-8 col-xs-6">
@@ -280,7 +278,7 @@
 
 					                    <div class="subheading mb-3"></div>
 
-					                    <p>West Side Comedy Club, The Comedy Store (LA), Greenwich Village Comedy Club, World Vision, Fung Brothers <br>(Viral Youtube Channel 2 Million Subscribers), Awarded with Residency at Broadway Comedy Club, MTV “U”</p>
+					                    <p>West Side Comedy Club, The Comedy Store (LA), Greenwich Village Comedy Club, World Vision, Fung Brothers (Viral Youtube Channel 2 Million Subscribers), Awarded with Residency at Broadway Comedy Club, MTV “U”</p>
 
 					                </div> 
 
@@ -533,122 +531,6 @@
 
 							            </div>
 
-						                <div class="resume-content">
-
-						                	<h5 class="mb-0">電影</h3>
-
-						                	<div class="subheading mb-3"></div>
-
-											<table class="table">
-
-											  <tbody>
-
-											    <tr>
-
-											        <td>CONTINUUM</td>
-
-											        <td>主角</td>
-
-											        <td>Greg Chwerchak導演</td>
-
-											    </tr>
-
-											    <tr>
-
-											        <td>摩斯密碼</td>
-
-											        <td>主角</td>
-
-											        <td>Bob Giraldi製作</td>
-
-											    </tr>
-
-											    <tr>
-
-											        <td>GRACE</td>
-
-											        <td>主角</td>
-
-											        <td>Kevin Clark-Ryan導演</td>
-
-											    </tr>
-
-											    <tr>
-
-											        <td>慢慢吃點心</td>
-
-											        <td>主角</td>
-
-											        <td>Leila Dai Min導演</td>
-
-											    </tr>
-
-											    <tr>
-
-											        <td>失去</td>
-
-											        <td>主角</td>
-
-											        <td>Wesley Huang導演</td>
-
-											    </tr>
-
-											    <tr>
-
-											        <td>扮家家酒</td>
-
-											        <td>主角</td>
-
-											        <td>Eddie Lebron導演</td>
-
-											    </tr>
-
-											    <tr>
-
-											        <td>信</td>
-
-											        <td>主角</td>
-
-											        <td>Erik Lu導演</td>
-
-											    </tr>
-
-											    <tr>
-
-											        <td>LEFT...BITTER TASTE...MOUTH</td>
-
-											        <td>配角</td>
-
-											        <td>A. James Marcolin導演</td>
-
-											    </tr>
-
-											    <tr>
-
-											        <td>OUROS</td>
-
-											        <td>配角</td>
-
-											        <td>T. Zhang導演</td>
-
-											    </tr>
-
-											    <tr>
-
-											        <td>ADAM BLOOM</td>
-
-											        <td>配角</td>
-
-											        <td>Noah David Smith導演</td>
-
-											    </tr>
-
-											  </tbody>
-
-											</table>
-
-						                </div>
-						                
 						        	</div>
 
 						        	<div class="col-sm-4 col-xs-6 desktop_view">  
@@ -673,7 +555,7 @@
 
 					            <div class="resume-item d-flex flex-column flex-md-row justify-content-between" id="film">
 
-<!-- 					                <div class="resume-content">
+					                <div class="resume-content">
 
 					                	<h5 class="mb-0">電影</h3>
 
@@ -787,7 +669,7 @@
 
 										</table>
 
-					                </div> -->
+					                </div>
 
 					            </div>
 

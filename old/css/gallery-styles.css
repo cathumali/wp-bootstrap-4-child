@@ -4,65 +4,24 @@
     overflow: hidden;
     position: relative;
 }
-.esther_chen-section-2 {
-    margin: 0 3em;
-}
-#esther_chen-main {
-    /*background-color: #000;*/
-}
-
 .headshots{
   height: 30em !important;
 } 
 .gallery-box{   
     float: left;
-    /*padding: 0;*/
-    padding-left: 0;
-    padding-right: 15px;
-    padding-top: 15px;
+    padding: 0;
 }
 .gallery-box img{
     margin: 0 !important;
     width:  100%;
-}
-.sl-wrapper .sl-image .sl-caption {
-    display: none !important;
-}
-
-.navbar.bg-dark {
-    background: #000 !important;
-}
-.page-template-page-gallery #page {
-    background:#000;
-}
-.page-id-849 #page {
-    height: 100% !important;
-} 
-
-#esther_chen-aside {
-    background: #fff !important;
-}
-.main_image {
-    position: relative;
-}
-.main_image h5{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.main_image img{
-    padding: 15px;
-    width: 100%;
 }
 
 .ngg-galleryoverview  {
     margin-top: 0 !important;
 }
 .no-gutters{
-    /*margin-right: -15px !important;*/
-    margin-left: 15px !important;
+    margin-right: -15px !important;
+    margin-left: -15px !important;
 }
 a.ngg-simplelightbox {
     margin: 0 !important;
@@ -125,7 +84,7 @@ div#esther_chen-main.videos_section section {
      
     }
     #esther_chen-aside #esther_chen-main-menu ul li {
-        display: list-item;
+        display: inline-block;
         margin: 0 15px;
     }
     .js-esther_chen-nav-toggle {
@@ -624,10 +583,8 @@ textarea.form-control {
 
 #da-thumbs li {
     margin: 0 !important;
-    border: none !important;
 }
 #da-thumbs li img {
     width: 100% !important;
     height: auto !important;
 }
-
