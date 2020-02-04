@@ -37,9 +37,9 @@
 
 			                <a class="nav-link js-scroll-trigger" >Resume Versions</a>
 
-			                <a class="nav-link js-scroll-trigger" id="chinese" href="#">Chinese</a>
-
 			                <a class="nav-link js-scroll-trigger" id="english" href="#">English</a>
+
+			                <a class="nav-link js-scroll-trigger" id="chinese" href="#">Chinese</a>
 
 			            	___<br>
 
@@ -58,11 +58,11 @@
 
 			            </li>
 
-			            <li class="nav-item">
+<!-- 			            <li class="nav-item">
 
 			                <a class="nav-link js-scroll-trigger" href="#coaching">DIALECT COACHING</a>
 
-			            </li>
+			            </li> -->
 
 			            <li class="nav-item">
 

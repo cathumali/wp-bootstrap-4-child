@@ -1,4 +1,10 @@
 
+body{
+    background: #000;
+}
+body * {
+    font-family: "Montserrat", Arial, sans-serif !important;
+}
 #esther_chen-page {
     width: 100%;
     overflow: hidden;
@@ -14,9 +20,10 @@
 .headshots{
   height: 30em !important;
 } 
+
+/*********Gallery Overrides Start*********/
 .gallery-box{   
     float: left;
-    /*padding: 0;*/
     padding-left: 0;
     padding-right: 15px;
     padding-top: 15px;
@@ -25,9 +32,32 @@
     margin: 0 !important;
     width:  100%;
 }
+
+#boxer {
+    top: 50% !important;
+    height: auto !important;
+    width: fit-content !important;
+    transform: translateY(-50%) !important;
+    background: #000 !important;
+}
+
+.TotalSoft_Hov_Overlay5 {
+    background: rgba(0, 0, 0, 0.52) !important;
+}
+
+.TS_GV_ClG_Div_box_div1_899 {
+    background: 000 !important;
+}
+span.TotalSoft_Title_Ef.TotalSoft_Title_Ef1{
+    color:  #fff !important;
+    font-family: "Montserrat", Arial, sans-serif !important;
+}
 .sl-wrapper .sl-image .sl-caption {
     display: none !important;
 }
+
+/*********Gallery Overrides Start*********/
+
 
 .navbar.bg-dark {
     background: #000 !important;
@@ -41,6 +71,11 @@
 
 #esther_chen-aside {
     background: #fff !important;
+}
+#esther_chen-aside  li{
+    /*font-weight: 800;*/
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;    
 }
 .main_image {
     position: relative;
@@ -68,7 +103,7 @@ a.ngg-simplelightbox {
     margin: 0 !important;
 }
 #esther_chen-aside {
-    padding-top: 20%;
+    padding-top: 15%;
     padding-bottom: 40px;
     padding-left: 3em;
     padding-right: 3em;
@@ -90,6 +125,18 @@ a.ngg-simplelightbox {
 div#esther_chen-main.videos_section section {
     margin: 2em !important;
 }
+
+aside ul li {
+    font-size: 14px !important;
+    line-height: 1em;
+}
+
+#esther_chen-main-menu li.title {
+    color: #BD5D38 !important;
+    font-size: 17px !important;
+    font-weight: 800  !important;
+}
+
 @media (min-width: 992px) {
     #esther_chen-aside {
         width: 25%;
@@ -167,7 +214,7 @@ div#esther_chen-main.videos_section section {
     padding: 0;
     list-style: none;
     font-size: 16px;
-    font-weight: 700;
+    /*font-weight: 800;*/
 }
 
 #esther_chen-aside #esther_chen-main-menu ul li a {

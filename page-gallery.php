@@ -19,6 +19,14 @@
 	get_header();  
 ?>
 
+<?php 	if( $wp->request == 'drunk-chinese-class' || $wp->request == 'conde-nast' ) { ?>
+<style type="">
+	div#esther_chen-main * {
+	    background: #000 !important;
+	    
+	}
+</style>
+<?php  } ?>
 	<div id="esther_chen-page">
 
 		<a href="#" class="js-esther_chen-nav-toggle esther_chen-nav-toggle"><i></i></a>
@@ -28,15 +36,27 @@
 			<nav id="esther_chen-main-menu" role="navigation">
 
 				<ul>
-					<!-- <li><a href="index.html">Home</a></li> -->
-
-					<li class="<?php echo ($wp->request == 'portfolio') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/portfolio">Photography</a></li>
+					<li class="title">Photos</li>
 					
-					<li class="<?php echo ($wp->request == 'modeling') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/modeling">Modeling</a></li>
+					<li class="<?php echo ($wp->request == 'portfolio') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/portfolio">Print Work</a></li>
 
-					<li class="<?php echo ($wp->request == 'videos') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/videos">Videos</a></li>
+					<li class="<?php echo ($wp->request == 'headshots') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/headshots">Headshots</a></li>
+
+					<li class="<?php echo ($wp->request == 'stand-up') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/stand-up">Stand up</a></li>
+
+					<li class="<?php echo ($wp->request == 'gallery') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/gallery">Gallery</a></li>
+					---	
+
+					<li class="title">Videos</li>
+
+
+					<li class="<?php echo ($wp->request == 'weekly-takeout') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/weekly-takeout">Weekly Takeout</a></li>
+
+					<li class="<?php echo ($wp->request == 'conde-nast') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/conde-nast">Condé Nast</a></li>
 
 					<li class="<?php echo ($wp->request == 'drunk-chinese-class') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/drunk-chinese-class">Drunk Chinese Class</a></li>
+
+					<li class="<?php echo ($wp->request == 'videos') ? 'esther_chen-active': ''; ?>"><a href="<?php echo get_site_url(); ?>/videos">Videos</a></li>
 				</ul>
 
 			</nav> 
@@ -49,7 +69,7 @@
 
 				<!-- Gif main image start -->
 				<?php
-				if (is_page( 'portfolio') || is_page( 'modeling') ):
+				if (is_page( 'portfolio') || is_page( 'modeling') || is_page( 'gallery') || is_page( 'headshots') ):
 				?>
 
 					<?php  if(  wp_get_attachment_url( get_post_thumbnail_id() ) ) { ?>
@@ -154,7 +174,8 @@
 		$('#da-thumbs').addClass('row');
 		$('#da-thumbs .TotLi').addClass('col-sm-4');
 
-
+		// $('#da-thumbs, .photograhy ul').addClass('row');
+		// $('#da-thumbs .TotLi, .photograhy li').addClass('col-sm-4');
 
 	})(jQuery); 
 </script>

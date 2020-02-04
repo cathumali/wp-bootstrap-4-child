@@ -48,7 +48,9 @@ body, html {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+span.byline {
+    display: none;
+}
 
 nav .social-links a {
     background: #171717;
